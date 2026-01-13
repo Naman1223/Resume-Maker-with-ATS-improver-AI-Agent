@@ -1,8 +1,8 @@
-# Resume Maker with ATS Improver AI Agent 🚀
+# Resume Maker with ATS Improver AI Agent 
 
 An intelligent agentic workflow that iteratively improves your resume to rank higher on Applicant Tracking Systems (ATS). Using Google's Gemini models, it analyzes your resume against a specific job description, provides feedback, and automatically rewrites the resume to maximize its score (aiming for >90).
 
-## ✨ Features
+##  Features
 
 - **Automated PDF to Markdown**: Extracts text from your resume PDF.
 - **ATS Scoring**: Analyzes your resume against a provided Job Description (JD) and assigns a score (0-100).
@@ -11,12 +11,12 @@ An intelligent agentic workflow that iteratively improves your resume to rank hi
 - **Iterative Improvement**: Runs in a loop (up to 5 iterations) to continuously refine the resume.
 - **Final Output Generation**: Converts the optimized markdown resume back into a PDF.
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 - Python 3.8+
 - A Google Gemini API Key. You can get one from [Google AI Studio](https://aistudio.google.com/).
 
-## 📦 Installation
+##  Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -44,7 +44,7 @@ An intelligent agentic workflow that iteratively improves your resume to rank hi
     GEMINI_API_KEY=your_api_key_here
     ```
 
-## 🚀 Usage
+##  Usage
 
 1.  **Prepare your Resume:**
     *   Rename your resume PDF to `Resume-Nitin.pdf` (or update the path in `ATS_looper.py` line 18) and place it in the project root.
@@ -71,7 +71,7 @@ An intelligent agentic workflow that iteratively improves your resume to rank hi
     *   `ats_score.txt`: The latest ATS score.
     *   `ats_feedback.md`: Detailed feedback from the latest iteration.
 
-## 📂 File Structure
+##  File Structure
 
 - `ATS_looper.py`: Main orchestrator script that manages the input, input loop, and calls other scripts.
 - `Score.py`: logic for scoring the resume against the JD using Gemini.
@@ -80,11 +80,11 @@ An intelligent agentic workflow that iteratively improves your resume to rank hi
 - `requirements.txt`: Python dependencies.
 - `prompt_sys.md`: System prompt used for the scoring mechanism.
 
-## ⚠️ Notes
+##  Notes
 
 - Ensure `Resume-Nitin.pdf` exists in the directory before running, or modify the source code to point to your specific filename.
 - The loop is currently set to run 5 times (`counter < 5`). You can adjust this in `ATS_looper.py`.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
