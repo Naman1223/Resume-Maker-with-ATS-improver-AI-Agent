@@ -9,8 +9,6 @@ wheels/
 # Virtual environments
 .venv
 *.env
-Resume-Nitin.pdf
-ats_corrected.md
-ats_feedback.md
-job_description.md
-ats_score.txt
+
+# Documents
+Documents/*
