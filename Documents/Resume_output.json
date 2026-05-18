@@ -1,0 +1,3094 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "Resume",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 987037096636145709,
+    "filename": "Resume.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/groups/9"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/79"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 744.47,
+            "r": 99.1,
+            "b": 735.3974193548387,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "OBJECTIVE",
+      "text": "OBJECTIVE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 712.72,
+            "r": 220.05000000000007,
+            "b": 690.1474193548387,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Innovative B.Tech Computer Science Agentic AI and",
+      "text": "Innovative B.Tech Computer Science Agentic AI and"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 699.22,
+            "r": 216.475,
+            "b": 568.5634088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            301
+          ]
+        }
+      ],
+      "orig": "student specializing in Multi-Agent Workflows . Proven track record in building autonomous systems using LangChain and LangGraph to solve complex user problems. Seeking a Machine Learning role to leverage my experience in LLM orchestration and state management to drive scalable business intelligence.",
+      "text": "student specializing in Multi-Agent Workflows . Proven track record in building autonomous systems using LangChain and LangGraph to solve complex user problems. Seeking a Machine Learning role to leverage my experience in LLM orchestration and state management to drive scalable business intelligence."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 523.65,
+            "r": 93.1,
+            "b": 514.5774193548386,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "CONTACT",
+      "text": "CONTACT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 491.9,
+            "r": 171.10000000000002,
+            "b": 482.7934088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "\u00b7 otwnaman@gmail.com",
+      "text": "otwnaman@gmail.com",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 473.4,
+            "r": 132.07000000000002,
+            "b": 464.2934088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "\u00b7 +91 6306166139",
+      "text": "+91 6306166139",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 455.15,
+            "r": 105.32,
+            "b": 446.0434088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\u00b7 Delhi NCR",
+      "text": "Delhi NCR",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 436.88,
+            "r": 95.04299999999999,
+            "b": 428.68406797116376,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "\u00b7 LINKEDIN",
+      "text": "LINKEDIN",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 420.13,
+            "r": 91.045,
+            "b": 411.0234088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "\u00b7 GITHUB",
+      "text": "GITHUB",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 401.63,
+            "r": 106.07,
+            "b": 392.5234088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "\u00b7 LEETCODE",
+      "text": "LEETCODE",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 206.04999999999995,
+            "r": 104.35,
+            "b": 196.97741935483873,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "EDUCATION",
+      "text": "EDUCATION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 175.54999999999995,
+            "r": 134.22500000000008,
+            "b": 166.47741935483873,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Galgotias University:",
+      "text": "Galgotias University:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 162.04999999999995,
+            "r": 191.92500000000004,
+            "b": 112.4134088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "2023-Currently BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE AND ENGINEERING",
+      "text": "2023-Currently BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE AND ENGINEERING"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 94.52499999999998,
+            "r": 140.10000000000002,
+            "b": 85.45241935483875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Jyoti Niketan School:",
+      "text": "Jyoti Niketan School:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 81.02499999999998,
+            "r": 105.32,
+            "b": 58.4184088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "2021-2022 INTERMEDIATE",
+      "text": "2021-2022 INTERMEDIATE"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.025,
+            "t": 40.75,
+            "r": 140.10000000000002,
+            "b": 31.677419354838662,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Jyoti Niketan School:",
+      "text": "Jyoti Niketan School:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 742.98875,
+            "r": 432.367,
+            "b": 699.4176814516129,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "Naman",
+      "text": "Naman",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 687.22,
+            "r": 451.35,
+            "b": 674.5183870967742,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "BUILDING SYSTEMS WITH AI",
+      "text": "BUILDING SYSTEMS WITH AI",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 651.7,
+            "r": 574.4000000000001,
+            "b": 575.3134088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            332
+          ]
+        }
+      ],
+      "orig": "I'm a B.Tech Computer Science student driven by a strong passion for machine learning, artificial intelligence, and emerging technologies that are transforming industries. My work revolves around applying ML and AI to solve real-world problems, automate complex workflows, and build intelligent systems that learn, adapt, and scale.",
+      "text": "I'm a B.Tech Computer Science student driven by a strong passion for machine learning, artificial intelligence, and emerging technologies that are transforming industries. My work revolves around applying ML and AI to solve real-world problems, automate complex workflows, and build intelligent systems that learn, adapt, and scale."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 557.42,
+            "r": 327.10999999999984,
+            "b": 548.3474193548386,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "What I Focus On:",
+      "text": "What I Focus On:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 530.42,
+            "r": 557.7900000000001,
+            "b": 507.7934088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "* Building AI-powered automation systems for intelligent data processing and decision-making",
+      "text": "Building AI-powered automation systems for intelligent data processing and decision-making",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 503.4,
+            "r": 528.0200000000001,
+            "b": 480.7934088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            108
+          ]
+        }
+      ],
+      "orig": "* Developing and deploying machine learning models for predictive analytics, classification, and forecasting",
+      "text": "Developing and deploying machine learning models for predictive analytics, classification, and forecasting",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 476.4,
+            "r": 554.2199999999999,
+            "b": 467.2934088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "* Exploring the use of LLMs, LangChain, and Langflow to create",
+      "text": "Exploring the use of LLMs, LangChain, and Langflow to create",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 462.9,
+            "r": 454.96999999999997,
+            "b": 453.7934088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "intelligent agents and custom AI workflows",
+      "text": "intelligent agents and custom AI workflows",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 449.4,
+            "r": 572.82,
+            "b": 426.7734088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "* Integrating APIs, webhooks, and backend logic to automate endto-end operations",
+      "text": "Integrating APIs, webhooks, and backend logic to automate endto-end operations",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 422.38,
+            "r": 568.26,
+            "b": 399.7734088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            118
+          ]
+        }
+      ],
+      "orig": "* Staying ahead of the curve with tools like TensorFlow, scikit-learn, OpenAI, Hugging Face, and low-code AI platforms",
+      "text": "Staying ahead of the curve with tools like TensorFlow, scikit-learn, OpenAI, Hugging Face, and low-code AI platforms",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 381.88,
+            "r": 569.73,
+            "b": 318.99340885684865,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            277
+          ]
+        }
+      ],
+      "orig": "I'm especially excited about the potential of AI -driven systems in finance, productivity, and personalized user experiences. From automating trading strategies to building smart assistants, I'm exploring every way AI can bring efficiency and intelligence to life and business.",
+      "text": "I'm especially excited about the potential of AI -driven systems in finance, productivity, and personalized user experiences. From automating trading strategies to building smart assistants, I'm exploring every way AI can bring efficiency and intelligence to life and business."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 301.1,
+            "r": 361.91999999999996,
+            "b": 291.99340885684865,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "Currently leveling up in:",
+      "text": "Currently leveling up in:"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 274.0799999999999,
+            "r": 518.49,
+            "b": 264.97340885684866,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "* Deep Learning, Generative AI, and Agentic Workflows",
+      "text": "Deep Learning, Generative AI, and Agentic Workflows",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 260.58000000000004,
+            "r": 449.94,
+            "b": 251.47340885684866,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "* AI Infrastructure and Automation Design",
+      "text": "AI Infrastructure and Automation Design",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 247.08000000000004,
+            "r": 428.7,
+            "b": 237.97340885684866,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "* Scalable deployment of ML systems",
+      "text": "Scalable deployment of ML systems",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 184.54999999999995,
+            "r": 307.68,
+            "b": 175.47741935483873,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "PROJECTS:",
+      "text": "PROJECTS:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 152.54999999999995,
+            "r": 547.02,
+            "b": 143.47741935483873,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "AI-DRIVEN RESUME OPTIMIZER (AGENTIC WORKFLOW)",
+      "text": "AI-DRIVEN RESUME OPTIMIZER (AGENTIC WORKFLOW)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 140.29999999999995,
+            "r": 349.91999999999996,
+            "b": 131.1934088568487,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "DEC 2025 -JAN 2026",
+      "text": "DEC 2025 -JAN 2026"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 246.1,
+            "t": 116.02999999999997,
+            "r": 537.3199999999999,
+            "b": 93.4184088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            95
+          ]
+        }
+      ],
+      "orig": "Technical Stack: Python, Google Gemini Pro, LangChain (or Agentic Loops), Regex, PyPDF2/Marker.",
+      "text": "Technical Stack: Python, Google Gemini Pro, LangChain (or Agentic Loops), Regex, PyPDF2/Marker."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 264.1,
+            "t": 77.02499999999998,
+            "r": 572.1800000000001,
+            "b": 40.89340885684862,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            164
+          ]
+        }
+      ],
+      "orig": "\u00b7 Engineered an autonomous agentic workflow using Google Gemini to iteratively optimize resumes against Job Descriptions (JD), achieving a target ATS score of 95%+.",
+      "text": "Engineered an autonomous agentic workflow using Google Gemini to iteratively optimize resumes against Job Descriptions (JD), achieving a target ATS score of 95%+.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 757.97,
+            "r": 108.07,
+            "b": 735.3634088568487,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "2019-2020 HIGH SCHOOL",
+      "text": "2019-2020 HIGH SCHOOL"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 690.47,
+            "r": 73.075,
+            "b": 681.3974193548387,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "SKILLS",
+      "text": "SKILLS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 653.7,
+            "r": 108.57,
+            "b": 644.5934088568487,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\u00b7 Langchain",
+      "text": "Langchain",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 635.45,
+            "r": 107.07,
+            "b": 626.3434088568487,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\u00b7 Pdfmu4llm",
+      "text": "Pdfmu4llm",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 616.95,
+            "r": 108.32,
+            "b": 607.8434088568487,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "\u00b7 Scikit-learn",
+      "text": "Scikit-learn",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 598.42,
+            "r": 105.82,
+            "b": 589.3134088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "\u00b7 Matplotlib",
+      "text": "Matplotlib",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 580.17,
+            "r": 93.32,
+            "b": 571.0634088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "\u00b7 Pandas",
+      "text": "Pandas",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 561.67,
+            "r": 87.295,
+            "b": 552.5634088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "\u00b7 HTML5",
+      "text": "HTML5",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 543.42,
+            "r": 90.795,
+            "b": 534.3134088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "\u00b7 Gradio",
+      "text": "Gradio",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 524.9,
+            "r": 116.32,
+            "b": 515.7934088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "\u00b7 Transformers",
+      "text": "Transformers",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 506.65,
+            "r": 103.32,
+            "b": 497.5434088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "\u00b7 Open API",
+      "text": "Open API",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 488.15,
+            "r": 83.045,
+            "b": 479.0434088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "\u00b7 Keras",
+      "text": "Keras",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 469.65,
+            "r": 108.82,
+            "b": 460.5434088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "\u00b7 TensorFlow",
+      "text": "TensorFlow",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 451.4,
+            "r": 96.57,
+            "b": 442.2934088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "\u00b7 FAST API",
+      "text": "FAST API",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 432.88,
+            "r": 83.545,
+            "b": 423.7734088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "\u00b7 JAVA",
+      "text": "JAVA",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 414.63,
+            "r": 75.045,
+            "b": 405.5234088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "\u00b7 SQL",
+      "text": "SQL",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 396.13,
+            "r": 102.82,
+            "b": 387.0234088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "\u00b7 LangFlow",
+      "text": "LangFlow",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 377.88,
+            "r": 110.57,
+            "b": 368.7734088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\u00b7 Langgraph",
+      "text": "Langgraph",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 359.35,
+            "r": 119.57,
+            "b": 350.24340885684865,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "\u00b7 Open Wisper",
+      "text": "Open Wisper",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 341.1,
+            "r": 96.32,
+            "b": 331.99340885684865,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "\u00b7 Pyaudio",
+      "text": "Pyaudio",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 322.6,
+            "r": 87.795,
+            "b": 313.49340885684865,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "\u00b7 GENAi",
+      "text": "GENAi",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 304.1,
+            "r": 127.82,
+            "b": 294.99340885684865,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "\u00b7 LLM Finetuning",
+      "text": "LLM Finetuning",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 285.83,
+            "r": 97.32,
+            "b": 276.72340885684866,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "\u00b7 LLM Ops",
+      "text": "LLM Ops",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 212.31999999999994,
+            "r": 133.35000000000002,
+            "b": 203.2474193548387,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "CERTIFICATIONS",
+      "text": "CERTIFICATIONS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 175.29999999999995,
+            "r": 202.00500000000002,
+            "b": 147.9434088568487,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "\u00b7 Supervised Machine Learning: Regression and Classification",
+      "text": "Supervised Machine Learning: Regression and Classification",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 138.54999999999995,
+            "r": 214.02000000000004,
+            "b": 111.1734088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "\u00b7 Mathematics-Basics to Advance for Data Science and GenAl",
+      "text": "Mathematics-Basics to Advance for Data Science and GenAl",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 101.77499999999998,
+            "r": 214.75500000000002,
+            "b": 74.4184088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "\u00b7 Machine Learning Crash Course: Fairness",
+      "text": "Machine Learning Crash Course: Fairness",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.025,
+            "t": 63.84100000000001,
+            "r": 117.505,
+            "b": 53.7376805970149,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "\u00b7 HCL GUVI Sql",
+      "text": "HCL GUVI Sql",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 282.13,
+            "t": 757.97,
+            "r": 556.9299999999998,
+            "b": 735.3974193548387,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "Improving average scores from 65 to 90+ across 20+ test cases.",
+      "text": "Improving average scores from 65 to 90+ across 20+ test cases.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 264.1,
+            "t": 730.97,
+            "r": 572.01,
+            "b": 681.3634088568487,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            190
+          ]
+        }
+      ],
+      "orig": "\u00b7 Developed a multi-stage feedback loop consisting of PDFto-Markdown extraction, scoring, and an \"Autocorrection\" module that refines content based on specific JD keywords and semantic gaps.",
+      "text": "Developed a multi-stage feedback loop consisting of PDFto-Markdown extraction, scoring, and an \"Autocorrection\" module that refines content based on specific JD keywords and semantic gaps.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 264.1,
+            "t": 676.95,
+            "r": 575.13,
+            "b": 627.3434088568487,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            184
+          ]
+        }
+      ],
+      "orig": "\u00b7 Implemented an iterative refinement logic that runs up to 5 autonomous cycles, using LLM-based reasoning to evaluate resume-JD alignment and rewrite bullet points for maximum impact.",
+      "text": "Implemented an iterative refinement logic that runs up to 5 autonomous cycles, using LLM-based reasoning to evaluate resume-JD alignment and rewrite bullet points for maximum impact.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 264.1,
+            "t": 623.2,
+            "r": 570.5899999999999,
+            "b": 587.0634088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            153
+          ]
+        }
+      ],
+      "orig": "\u00b7 Integrated a final rendering pipeline to convert optimized Markdown back into ATS-friendly PDF format, ensuring both content and structural compliance.",
+      "text": "Integrated a final rendering pipeline to convert optimized Markdown back into ATS-friendly PDF format, ensuring both content and structural compliance.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 246.1,
+            "t": 512.65,
+            "r": 464.25,
+            "b": 503.5774193548387,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "MULTI-AGENT COLLABORATIVE SYSTEM",
+      "text": "MULTI-AGENT COLLABORATIVE SYSTEM",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 246.1,
+            "t": 500.4,
+            "r": 364.41999999999996,
+            "b": 491.2934088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "January 2026 -FEB 2026",
+      "text": "January 2026 -FEB 2026"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 246.1,
+            "t": 476.15,
+            "r": 575.07,
+            "b": 453.5434088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            96
+          ]
+        }
+      ],
+      "orig": "Technical Stack: Python, LangGraph, Google Gemini, OpenAI (GPT4), React (JSX), Flask, PyWebView.",
+      "text": "Technical Stack: Python, LangGraph, Google Gemini, OpenAI (GPT4), React (JSX), Flask, PyWebView."
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 264.1,
+            "t": 437.13,
+            "r": 538.24,
+            "b": 387.5234088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            206
+          ]
+        }
+      ],
+      "orig": "\u00b7 Architected with a stateful multi-agent system using LangGraph to automate the software development lifecycle, coordinating five specialized AI agents (Requirement Analyst, Planner, UI/UX Designer, etc.).",
+      "text": "Architected with a stateful multi-agent system using LangGraph to automate the software development lifecycle, coordinating five specialized AI agents (Requirement Analyst, Planner, UI/UX Designer, etc.).",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 264.1,
+            "t": 383.13,
+            "r": 568.47,
+            "b": 333.49340885684865,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            173
+          ]
+        }
+      ],
+      "orig": "\u00b7 Implemented a Directed Acyclic Graph (DAG) to manage complex information flow, enabling autonomous requirement engineering, gap analysis, and strategic roadmap generation.",
+      "text": "Implemented a Directed Acyclic Graph (DAG) to manage complex information flow, enabling autonomous requirement engineering, gap analysis, and strategic roadmap generation.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 264.1,
+            "t": 329.1,
+            "r": 564.87,
+            "b": 279.49340885684865,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            179
+          ]
+        }
+      ],
+      "orig": "\u00b7 Engineered with an \"Intelligent Gap Analysis\" node that identifies inconsistencies in user prompts and triggers a Human-in-the-Loop feedback cycle for 100% requirement accuracy.",
+      "text": "Engineered with an \"Intelligent Gap Analysis\" node that identifies inconsistencies in user prompts and triggers a Human-in-the-Loop feedback cycle for 100% requirement accuracy.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 264.1,
+            "t": 275.0799999999999,
+            "r": 577.7599999999999,
+            "b": 239.22340885684866,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            179
+          ]
+        }
+      ],
+      "orig": "\u00b7 Developed an automated UI/UX pipeline that translates high-level technical specifications into functional, responsive React (JSX) code with a live preview interface using Flask.",
+      "text": "Developed an automated UI/UX pipeline that translates high-level technical specifications into functional, responsive React (JSX) code with a live preview interface using Flask.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 264.1,
+            "t": 234.83000000000004,
+            "r": 565.99,
+            "b": 198.6934088568487,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            169
+          ]
+        }
+      ],
+      "orig": "\u00b7 Optimized model performance by integrating a multi-LLM strategy, utilizing Gemini Flash for rapid analysis and GPT4/Nemotron for complex reasoning and code generation.",
+      "text": "Optimized model performance by integrating a multi-LLM strategy, utilizing Gemini Flash for rapid analysis and GPT4/Nemotron for complex reasoning and code generation.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 246.1,
+            "t": 132.79999999999995,
+            "r": 475.25,
+            "b": 123.72741935483873,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "LOCAL-FIRST AGENTIC VOICE ASSISTANT",
+      "text": "LOCAL-FIRST AGENTIC VOICE ASSISTANT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 246.1,
+            "t": 120.52999999999997,
+            "r": 344.41999999999996,
+            "b": 111.4234088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Feb 2026 - Currently",
+      "text": "Feb 2026 - Currently"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 246.1,
+            "t": 96.02499999999998,
+            "r": 536.05,
+            "b": 73.6684088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            108
+          ]
+        }
+      ],
+      "orig": "Technical Stack: Python, Llama 3.1 (Ollama/Local), OpenAI Whisper, LangGraph, PyAudio, Text-to-Speech (TTS).",
+      "text": "Technical Stack: Python, Llama 3.1 (Ollama/Local), OpenAI Whisper, LangGraph, PyAudio, Text-to-Speech (TTS)."
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 36.025,
+            "t": 758.0,
+            "r": 208.59499999999997,
+            "b": 730.9019368421053,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "\u00b7 Introduction to Programming Using Python",
+      "text": "Introduction to Programming Using Python",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 36.025,
+            "t": 691.22,
+            "r": 105.85,
+            "b": 682.1474193548387,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "EXPERIENCE",
+      "text": "EXPERIENCE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 36.025,
+            "t": 654.2,
+            "r": 140.272,
+            "b": 644.2201612903226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Intern at Internselite",
+      "text": "Intern at Internselite",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 36.025,
+            "t": 634.7,
+            "r": 155.04600000000002,
+            "b": 627.414727085479,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "(July-2025 to September-2025)",
+      "text": "(July-2025 to September-2025)"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 36.025,
+            "t": 619.7,
+            "r": 218.635,
+            "b": 528.7240679711637,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            189
+          ]
+        }
+      ],
+      "orig": "\u00b7 Data Engineering & Optimization : Engineered data pipelines to process and analyze over 50 GB of unstructured data, ensuring highquality inputs for Large Language Model (LLM) fine-tuning.",
+      "text": "Data Engineering & Optimization : Engineered data pipelines to process and analyze over 50 GB of unstructured data, ensuring highquality inputs for Large Language Model (LLM) fine-tuning.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 36.025,
+            "t": 520.4,
+            "r": 221.10999999999996,
+            "b": 429.43406797116376,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            186
+          ]
+        }
+      ],
+      "orig": "\u00b7 Collaborative Model Refinement : Partnered with cross-functional teams to iterate model training strategies, resulting in measurable improvements to the LLM's accuracy and performance.",
+      "text": "Collaborative Model Refinement : Partnered with cross-functional teams to iterate model training strategies, resulting in measurable improvements to the LLM's accuracy and performance.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 36.025,
+            "t": 420.88,
+            "r": 215.20600000000007,
+            "b": 346.6540679711638,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            153
+          ]
+        }
+      ],
+      "orig": "\u00b7 Quality Assurance : Developed automated scripts to clean and validate training datasets, reducing noise and improving the consistency of model outputs.",
+      "text": "Quality Assurance : Developed automated scripts to clean and validate training datasets, reducing noise and improving the consistency of model outputs.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 264.1,
+            "t": 757.97,
+            "r": 576.74,
+            "b": 721.8634088568487,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            179
+          ]
+        }
+      ],
+      "orig": "\u00b7 Developed a privacy-centric, low-latency voice assistant capable of executing complex tasks locally, utilizing OpenAI Whisper for high-accuracy speech-to-text (STT) via PyAudio.",
+      "text": "Developed a privacy-centric, low-latency voice assistant capable of executing complex tasks locally, utilizing OpenAI Whisper for high-accuracy speech-to-text (STT) via PyAudio.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 264.1,
+            "t": 717.47,
+            "r": 564.13,
+            "b": 667.8434088568487,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            199
+          ]
+        }
+      ],
+      "orig": "\u00b7 Engineered an agentic decision-making engine using LangGraph and Llama 3.1 , enabling the assistant to maintain state across multi-turn conversations and handle tool-calling for local system tasks.",
+      "text": "Engineered an agentic decision-making engine using LangGraph and Llama 3.1 , enabling the assistant to maintain state across multi-turn conversations and handle tool-calling for local system tasks.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 264.1,
+            "t": 663.45,
+            "r": 570.0400000000001,
+            "b": 627.3434088568487,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            165
+          ]
+        }
+      ],
+      "orig": "\u00b7 Optimized audio processing pipelines to achieve near-realtime transcription and response, managing asynchronous streams between microphone input and LLM inference.",
+      "text": "Optimized audio processing pipelines to achieve near-realtime transcription and response, managing asynchronous streams between microphone input and LLM inference.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 264.1,
+            "t": 623.2,
+            "r": 572.05,
+            "b": 573.5634088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            184
+          ]
+        }
+      ],
+      "orig": "\u00b7 Architected with a tool-integrated workflow where the agent can autonomously decide to query local files, check system status, or perform web searches based on intent classification.",
+      "text": "Architected with a tool-integrated workflow where the agent can autonomously decide to query local files, check system status, or perform web searches based on intent classification.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 264.1,
+            "t": 569.17,
+            "r": 560.23,
+            "b": 533.0634088568486,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "\u00b7 Implemented custom state-management logic to ensure context retention, allowing the assistant to handle interruptions and follow-up commands seamlessly.",
+      "text": "Implemented custom state-management logic to ensure context retention, allowing the assistant to handle interruptions and follow-up commands seamlessly.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 248.46435546875,
+            "t": 742.6334419250488,
+            "r": 416.7921447753906,
+            "b": 706.5798110961914,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 3
+    }
+  }
+}

@@ -1,9 +1,9 @@
-langchain
-langchain_community
-langchain_google_genai
-langgraph
+google-genai
 python-dotenv
-pylatex
-PyMuPDF4LLM
-docling
-langchain_nvidia_ai_endpoints
+pypdf
+langchain-google-genai
+langchain-community
+langchain-openai
+langchain-ollama
+langchain
+pymupdf
