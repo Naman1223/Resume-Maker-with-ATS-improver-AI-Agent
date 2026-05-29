@@ -6,4 +6,8 @@ langchain-community
 langchain-openai
 langchain-ollama
 langchain
+langchain-nvidia-ai-endpoints
+langgraph
 pymupdf
+pylatex
+docling
