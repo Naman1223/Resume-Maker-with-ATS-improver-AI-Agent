@@ -183,12 +183,33 @@ def improve(state: AgentState) -> AgentState:
     return state
 
 def tex_to_pdf(state: AgentState) -> AgentState:
+    import shutil
     tex_path = os.path.abspath("Documents/Improved_Resume.tex")
     out_dir = os.path.abspath("Documents")
 
+    # Resolve pdflatex path
+    pdflatex_bin = shutil.which("pdflatex")
+    if not pdflatex_bin:
+        # Check standard Windows MiKTeX installation locations
+        candidates = [
+            os.path.expandvars(r"%LOCALAPPDATA%\Programs\MiKTeX\miktex\bin\x64\pdflatex.exe"),
+            os.path.expandvars(r"%LOCALAPPDATA%\Programs\MiKTeX\miktex\bin\x64\miktex-pdflatex.exe"),
+            r"C:\Program Files\MiKTeX\miktex\bin\x64\pdflatex.exe",
+            r"C:\Program Files\MiKTeX\miktex\bin\x64\miktex-pdflatex.exe",
+            r"C:\Program Files (x86)\MiKTeX\miktex\bin\x64\pdflatex.exe",
+            r"C:\Program Files (x86)\MiKTeX\miktex\bin\x64\miktex-pdflatex.exe",
+        ]
+        for candidate in candidates:
+            if os.path.exists(candidate):
+                pdflatex_bin = candidate
+                break
+
+    if not pdflatex_bin:
+        pdflatex_bin = "pdflatex"  # Fallback to default name to trigger FileNotFoundError below
+
     try:
         result = subprocess.run(
-            ["pdflatex", "-interaction=nonstopmode", "-output-directory", out_dir, tex_path],
+            [pdflatex_bin, "-interaction=nonstopmode", "-output-directory", out_dir, tex_path],
             capture_output=True,
             text=True,
             timeout=60,
