@@ -9,5 +9,10 @@ langchain
 langchain-nvidia-ai-endpoints
 langgraph
 pymupdf
+pydantic
 pylatex
 docling
+sentence-transformers
+scikit-learn
+huggingface_hub[hf_xet]
+onnxruntime

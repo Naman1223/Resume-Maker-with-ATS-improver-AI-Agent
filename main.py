@@ -1,4 +1,7 @@
+from pydantic import Field
 import os
+import re
+import pydantic as pd
 import subprocess
 from typing import TypedDict
 from dotenv import load_dotenv
@@ -9,29 +12,28 @@ from conversions import Conversion
 load_dotenv()
 
 
+def strip_markdown_fences(text: str) -> str:
+    """Remove markdown code fences (```json ... ```) that LLMs often add."""
+    return re.sub(r"^```(?:json)?\s*\n?|\n?```\s*$", "", text.strip()).strip()
+
+class SchemaFeedback(pd.BaseModel):
+    ats_score: int = Field(description="ATS score ranging from 0-100")
+    improvements: list[dict] = Field(description="List of improvements in the Resume and the suggestion to improve it")
+
 class AgentState(TypedDict):
     file_path: str
     resume_md: str
     job_description: str
     md_filepath:str
-    ats_score: int
-    feedback: str
+    analysis:SchemaFeedback
     improved_resume: str
     resume_latex: str
 
 
 
 def md(state: AgentState):
-    state["file_path"] = "Documents/Resume.pdf"
-    state["job_description"] = input("Enter the job description: ")
-    if state["file_path"].endswith(".pdf"):
-        state["resume_md"] = Conversion(state["file_path"]).pdf_to_md()
-    elif state["file_path"].endswith(".docx"):
-        state["resume_md"] = Conversion(state["file_path"]).docx_to_md()
-    elif state["file_path"].endswith(".jpg") or state["file_path"].endswith(".png"):
-        state["resume_md"] = Conversion(state["file_path"]).img_to_md()
-    else:
-        state["resume_md"] = Conversion(state["file_path"]).text_to_md()
+    file_path = state["file_path"]
+    state["resume_md"] = Conversion(file_path).to_md()
     return state
 
 
@@ -40,9 +42,11 @@ def processing(state: AgentState) -> AgentState:
         model=os.getenv("MODEL"),
         api_key=os.getenv("NVIDIA_API_KEY"),
         temperature=0.5,
-        max_completion_tokens=16384,
+        max_completion_tokens=4000,
         top_p=1,
     )
+    
+    structured_llm =llm.with_structured_output(SchemaFeedback)
 
     FEEDBACK_PROMPT = """
         You are a senior ATS expert and professional resume coach.
@@ -71,8 +75,12 @@ def processing(state: AgentState) -> AgentState:
         --- RESUME END ---
     """
 
-    response = llm.invoke([("human", FEEDBACK_PROMPT.format(resume_md=state.get("resume_md", "")))])
-    state["feedback"] = response.content
+    response = structured_llm.invoke([("human", FEEDBACK_PROMPT.format(resume_md=state.get("resume_md", "")))])
+    ats_score = response.ats_score
+    state["analysis"] = response
+    print(f"ATS Score: {ats_score}")
+    with open("Documents/feedback.json", "w", encoding="utf-8") as f:
+        f.write(response.model_dump_json(indent=2))
     return state
 
 
@@ -130,11 +138,7 @@ def improve(state: AgentState) -> AgentState:
         --- JOB DESCRIPTION END ---
     """
 
-    response = llm.invoke([("human", IMPROVE_PROMPT.format(
-        resume_md=state.get("resume_md", ""),
-        feedback=state.get("feedback", ""),
-        job_description=state.get("job_description", ""),
-    ))])
+    response = llm.invoke([("human", IMPROVE_PROMPT.format(resume_md=state.get("resume_md", ""), feedback=state["analysis"].model_dump_json(indent=2) if state.get("analysis") else "", job_description=state.get("job_description", "")))])
     state["improved_resume"] = response.content
 
     # ── Step 2: Convert the improved resume to LaTeX ──
@@ -247,19 +251,22 @@ graph.add_edge("tex_to_pdf", END)
 
 app = graph.compile()
 
+# ── Collect user inputs before running the pipeline ──
+file_path = "Documents/Resume.pdf"
+job_description = input("Enter the job description: ").strip()
+
 result = app.invoke({
-    "file_path": "",
+    "file_path": file_path,
     "resume_md": "",
-    "job_description": "",
+    "job_description": job_description,
     "md_filepath": "",
-    "ats_score": 0,
-    "feedback": "",
+    "analysis": None,
     "improved_resume": "",
     "resume_latex": "",
 })
 
 print("=== ATS FEEDBACK ===")
-print(result["feedback"])
+print(result["analysis"].model_dump_json(indent=2))
 print("\n=== IMPROVED RESUME ===")
 print(result["improved_resume"])
 print("\n=== FILES SAVED ===")

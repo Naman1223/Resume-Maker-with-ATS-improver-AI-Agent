@@ -8,30 +8,9 @@ class Conversion:
         self.converter = DocumentConverter()
         self.doc = self.converter.convert(self.source).document
 
-    def pdf_to_md(self):
-        md_file = self.doc.export_to_markdown()
-        os.makedirs("Documents", exist_ok=True)
-        with open("Documents/Resume_output.md", "w") as f:
-            f.write(md_file)
-        return md_file 
-
-    def docx_to_md(self):
-        md_file = self.doc.export_to_markdown()
-        os.makedirs("Documents", exist_ok=True)
-        with open("Documents/Resume_output.md", "w") as f:
-            f.write(md_file)
-        return md_file 
-
-    def img_to_md(self):
+    def to_md(self):
         md_file = self.doc.export_to_markdown()
         os.makedirs("Documents", exist_ok=True)
         with open("Documents/Resume_output.md", "w") as f:
             f.write(md_file)
         return md_file
-
-    def text_to_md(self):
-        md_file = self.doc.export_to_markdown()
-        os.makedirs("Documents", exist_ok=True)
-        with open("Documents/Resume_output.md", "w") as f:
-            f.write(md_file)
-        return md_file 
