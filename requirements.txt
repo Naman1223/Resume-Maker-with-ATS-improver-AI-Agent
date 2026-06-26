@@ -16,3 +16,4 @@ sentence-transformers
 scikit-learn
 huggingface_hub[hf_xet]
 onnxruntime
+markdown-pdf
